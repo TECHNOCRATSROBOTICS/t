@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<title>BME280 Temperature, Humidity and Pressure Server</title>
+<meta charset="utf-8">
+<!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> -->
+<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/static/normalize.css">
+<link rel="stylesheet" type="text/css" href="/static/t.css">
+</head>
+<body>
+<div class="box">
+
+<!--<span class="header">
+BME280 Sensor Output
+</span>-->
+
+<span class="col1">
+<h2>Temperature</h2>
+<h3>{{ degrees }}&deg;C</h3>
+</span>
+
+<span class="col2">
+<h2>Humidity</h2>
+<h3>{{ humidity }}%</h3>
+</span>
+
+<span class="col3">
+<h2>Pressure</h2>
+<h3>{{ hectopascals }} hPa</h3>
+</span>
+
+</div>
+</body>
+</html>
